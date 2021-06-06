@@ -1,5 +1,5 @@
 const BLOG = {
-  title: ' 貼布 TeBu 科技&商業&生活 &nbsp',
+  title: ' 貼布 TeBu 科技&商業&生活  ',
   author: 'Po Hao Lin',
   email: 'p82919@gmail.com',
   link: 'https://nobelium.vercel.app',
