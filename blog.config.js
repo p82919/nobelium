@@ -1,9 +1,9 @@
 const BLOG = {
-  title: ' TeBu 科技&商業&生活',
+  title: ' TeBu 科技&商業&生活  ',
   author: 'Po Hao Lin',
   email: 'p82919@gmail.com',
   link: 'https://nobelium.vercel.app',
-  description: '以生活化的方式，理解科技與商業',
+  description: '理解科技與商業，在生活中倒吃甘蔗',
   lang: 'zh-TW',
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
@@ -16,22 +16,22 @@ const BLOG = {
   showAbout: true, // WIP
   showArchive: true, // WIP
   autoCollapsedNavBar: false, // the automatically collapsed navigation bar
-  socialLink: 'https://twitter.com/craigaryhart',
+  socialLink: 'https://twitter.com/pohao_lin',
   seo: {
-    keywords: ['Blog', 'Website', 'Notion'],
-    googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
+    keywords: ['數位工具', '數位生活', '商業思維','科技分析'],
+    googleSiteVerification: 'MVvfNwkZxZ_pDv9e5LA7jLeosM7PdM82XtOYu_PXnyI' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
   analytics: {
-    provider: '', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
+    provider: 'ga', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
     ackeeConfig: {
       tracker: '', // e.g 'https://ackee.craigary.net/tracker.js'
       dataAckeeServer: '', // e.g https://ackee.craigary.net , don't end with a slash
       domainId: '' // e.g '0e2257a8-54d4-4847-91a1-0311ea48cc7b'
     },
     gaConfig: {
-      measurementId: '' // e.g: G-XXXXXXXXXX
+      measurementId: 'G-G33WJ4C6T3' // e.g: G-XXXXXXXXXX
     }
   },
   comment: {
